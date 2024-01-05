@@ -26,7 +26,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="100dp"
-            android:background="@drawable/average_daily_reading_rectangle"
+            android:id="@+id/daily_reading_average_card"
+            android:background="@drawable/daily_reading_average_rectangle"
             android:orientation="vertical"
             android:padding="16dp"
             android:gravity="center"
@@ -34,7 +35,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/average_daily_reading_time"
+                android:text="@string/daily_reading_average_time"
                 android:textSize="24sp"
                 android:textStyle="bold"/>
 
@@ -42,7 +43,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/average_daily_reading_time_description"/>
+                android:text="@string/daily_reading_average_time_description"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
