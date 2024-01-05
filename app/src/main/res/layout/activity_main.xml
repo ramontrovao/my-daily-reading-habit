@@ -25,7 +25,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="98dp"
+            android:minHeight="100dp"
             android:background="@drawable/average_daily_reading_rectangle"
             android:orientation="vertical"
             android:padding="16dp"
