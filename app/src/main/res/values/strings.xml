@@ -3,4 +3,5 @@
     <string name="home_screen">Home screen</string>
     <string name="daily_reading_average_time">25min</string>
     <string name="daily_reading_average_time_description">average of daily reading time</string>
+    <string name="add_new_read">add new read</string>
 </resources>
