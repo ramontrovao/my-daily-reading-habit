@@ -37,13 +37,23 @@
                 android:layout_height="wrap_content"
                 android:text="@string/daily_reading_average_time"
                 android:textSize="24sp"
+                android:textColor="@color/primary_gray"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_marginTop="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/primary_gray"
                 android:text="@string/daily_reading_average_time_description"/>
         </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/add_new_read_rectangle"
+            android:textColor="@color/primary_gray"
+            android:text="@string/add_new_read"/>
     </LinearLayout>
 </LinearLayout>
